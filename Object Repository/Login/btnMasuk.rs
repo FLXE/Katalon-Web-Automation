@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnMasuk</name>
+   <tag></tag>
+   <elementGuidId>f745f13a-c571-4fdd-9f1b-ea8788922818</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@name='commit']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@name='commit']</value>
+      <webElementGuid>d654a77a-eb36-4314-aabb-3f7f098fbeb6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
