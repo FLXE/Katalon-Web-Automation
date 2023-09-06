@@ -24,18 +24,18 @@ import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
 public class DeleteProduct {
-	@Given("user success logged in")
-	public void user_success_logged_in() {
+	@Given("user success login")
+	public void user_success_login() {
 		WebUI.callTestCase(findTestCase('Product/Delete Product/Step Definition/01 user success login'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@When("user clicked the humburger icon")
-	public void user_clicked_the_humburger_icon() {
+	@When("user click humburger icon")
+	public void user_click_humburger_icon() {
 		WebUI.callTestCase(findTestCase('Product/Delete Product/Step Definition/02 user click humburger icon'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@And("user selected the product")
-	public void user_selected_the_product() {
+	@And("user select product")
+	public void user_select_product() {
 		WebUI.callTestCase(findTestCase('Product/Delete Product/Step Definition/03 user choose product'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
