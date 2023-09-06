@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "80081D6C1F4A6A6F16E01F6D9075697A",
+  "keywordClasses": [
+    {
+      "name": "stepDefinition.UpdateProduct",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

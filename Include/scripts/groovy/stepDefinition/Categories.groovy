@@ -30,7 +30,7 @@ class Categories {
 	}
 
 
-	
+
 	@Given("user has been login")
 	public void user_has_been_login() {
 		WebUI.callTestCase(findTestCase('Categories/Step Definition/User already login'), [('email') : 'qabinar11@gmail.com', ('password') : 'qabinar'],
@@ -48,8 +48,8 @@ class Categories {
 		WebUI.callTestCase(findTestCase('Categories/Step Definition/User cannot find the unavailable product'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	
-	
+
+
 	@Given("user successful login")
 	public void user_successful_login() {
 		WebUI.callTestCase(findTestCase('Categories/Step Definition/User already login'), [('email') : 'qabinar11@gmail.com', ('password') : 'qabinar'],
@@ -65,9 +65,9 @@ class Categories {
 	public void user_find_the_aimless_products() {
 		WebUI.callTestCase(findTestCase('Categories/Step Definition/User find all product random'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-	
-	
-	
+
+
+
 	@Given("users have been login")
 	public void users_have_been_login() {
 		WebUI.callTestCase(findTestCase('Categories/Step Definition/User already login'), [('email') : 'qabinar11@gmail.com', ('password') : 'qabinar'],
@@ -83,9 +83,9 @@ class Categories {
 	public void user_find_the_random_product() {
 		WebUI.callTestCase(findTestCase('Categories/Step Definition/User find all product random(space)'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-	
-	
-	
+
+
+
 	@Given("user login")
 	public void user_login() {
 		WebUI.callTestCase(findTestCase('Categories/Step Definition/User already login'), [('email') : 'qabinar11@gmail.com', ('password') : 'qabinar'],
@@ -95,15 +95,15 @@ class Categories {
 	@When("user input product name contains mixed data types")
 	public void user_input_product_name_contains_mixed_data_types() {
 		WebUI.callTestCase(findTestCase('Categories/Step Definition/User input mix data types product name'), [('product_1') : '@baju23!'
-        , ('product_2') : '_sepatu456@'], FailureHandling.STOP_ON_FAILURE)
+			, ('product_2') : '_sepatu456@'], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("user can not find the product")
 	public void user_can_not_find_the_product() {
 		WebUI.callTestCase(findTestCase('Categories/Step Definition/User cannot find the unavailable product'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-	
-	
+
+
 	@Given("user login successfully")
 	public void user_login_successfully() {
 		WebUI.callTestCase(findTestCase('Categories/Step Definition/User already login'), [('email') : 'qabinar11@gmail.com', ('password') : 'qabinar'],
