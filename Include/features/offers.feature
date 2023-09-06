@@ -22,23 +22,23 @@ Feature: Offers
 	@OFR003
 	Scenario: Seller rejecting buyer offer
 		Given Buyer offer product
-		When User click notification icon
-		And Select offer notification from buyer
-		And User click Tolak button
-		Then Offer status become accepted
+		When User clicked on notification icon
+		And Select the offer notification from buyer
+		And User click on Tolak button
+		Then Offer status become rejected
 		
 	@OFR004
 	Scenario: Seller change offer status to finished
 		Given Seller accept buyer offer
 		When User click status button
 		And User select finished status
-		And User click kirim button
+		And User click the kirim button
 		Then Offer status changed to sold
 		
 	@OFR005
 	Scenario: Seller change offer status to cancelled
-		Given Seller accept buyer offer
-		When User click status button
+		Given Seller accepted buyer offer
+		When User click on status button
 		And User select cancel transaction status
-		And User click kirim button
+		And User click button kirim
 		Then Offer status changed to cancelled
