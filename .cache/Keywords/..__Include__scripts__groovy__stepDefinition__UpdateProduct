@@ -1,8 +1,8 @@
 {
-  "keywordFileContentHash": "80081D6C1F4A6A6F16E01F6D9075697A",
+  "keywordFileContentHash": "EB6973AC611A04CA71FEAFE4F72B055E",
   "keywordClasses": [
     {
-      "name": "stepDefinition.UpdateProduct",
+      "name": "stepDefinition.updateproductnew",
       "keywordMethods": []
     }
   ],

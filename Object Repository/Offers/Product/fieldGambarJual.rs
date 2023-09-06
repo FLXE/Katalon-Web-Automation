@@ -6,18 +6,14 @@
    <elementGuidId>4a3e05e0-9eae-4966-bc6f-4b26665224e1</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//input[@id='product_images']</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//div[@class='form-image rounded-4 img-preview']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>//div[@class='form-image rounded-4 img-preview']</value>
-      <webElementGuid>7aee0904-dcda-4d91-a275-e3bc67c33608</webElementGuid>
-   </webElementProperties>
 </WebElementEntity>
