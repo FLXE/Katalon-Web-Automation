@@ -17,3 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('Offers/btnHomepage'))
+
+WebUI.verifyElementPresent(findTestObject('Categories/fieldSearch'), 0)
+
+WebUI.setText(findTestObject('Categories/fieldSearch'), FunkoPOP)
+
+WebUI.sendKeys(findTestObject('Categories/fieldSearch'), Keys.chord(Keys.ENTER))
+

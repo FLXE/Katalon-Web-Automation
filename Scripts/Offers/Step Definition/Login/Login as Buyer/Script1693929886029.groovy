@@ -21,11 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://secondhand.binaracademy.org')
-
-WebUI.verifyElementPresent(findTestObject('Categories/btnMasuk'), 3)
-
-WebUI.click(findTestObject('Categories/btnMasuk'))
+WebUI.navigateToUrl('https://secondhand.binaracademy.org/users/sign_in')
 
 WebUI.verifyElementPresent(findTestObject('Categories/tagMasuk'), 3)
 
