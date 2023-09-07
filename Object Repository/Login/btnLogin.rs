@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>fieldpassword</name>
+   <name>btnLogin</name>
    <tag></tag>
-   <elementGuidId>624e2f21-e01f-4c92-99c8-8609bcba6d06</elementGuidId>
+   <elementGuidId>a9e4d7bf-4924-4e17-8291-989ff84816af</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@id='user_password']</value>
+         <value>//a[contains(.,'Masuk')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@id='user_password']</value>
-      <webElementGuid>ab0d155a-dabf-49d9-bd38-e50e880539ea</webElementGuid>
+      <value>//a[contains(.,'Masuk')]</value>
+      <webElementGuid>9572897e-9307-4a9c-a5b1-3ad0facd3204</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

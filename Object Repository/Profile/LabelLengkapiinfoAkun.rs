@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>fieldpassword</name>
+   <name>LabelLengkapiinfoAkun</name>
    <tag></tag>
-   <elementGuidId>624e2f21-e01f-4c92-99c8-8609bcba6d06</elementGuidId>
+   <elementGuidId>8e948f42-0b66-40c1-8b58-e4f0c388bec2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@id='user_password']</value>
+         <value>//div[@class='fs-6 fw-bold text-center position-absolute top-50 start-50 translate-middle']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@id='user_password']</value>
-      <webElementGuid>ab0d155a-dabf-49d9-bd38-e50e880539ea</webElementGuid>
+      <value>//div[@class='fs-6 fw-bold text-center position-absolute top-50 start-50 translate-middle']</value>
+      <webElementGuid>6ac138da-8499-4d99-8e2e-f4571247e4b7</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>WebAutomationSecondHand</name>
+   <name>deadpoolwebautomation</name>
    <tag></tag>
-   <UUID>e5b7aee7-9912-4e4b-8f9d-5437ecb6cb72</UUID>
+   <UUID>3bfd5ac3-84a6-4f34-a47c-4d5cdab5c972</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <sourceContent>
@@ -25,5 +25,5 @@
       </systemFolderList>
    </sourceContent>
    <timeStampInProperties>false</timeStampInProperties>
-   <type>WEBUI</type>
+   <type>GENERIC</type>
 </Project>

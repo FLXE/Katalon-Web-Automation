@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Feature Profile,Firefox 117.0,,,2023-09-07 00:58:16,2023-09-07 00:59:17,1m - 0.254s,PASSED
+,,,,,,,
+Test Cases/Test Case/Edit Profile with valid data,Firefox 117.0,,,2023-09-07 00:58:17,2023-09-07 00:59:17,59.825s,PASSED
+"callTestCase(findTestCase(""Login/Test Case/User Success login with valid credential""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-09-07 00:58:17,2023-09-07 00:59:03,45.634s,PASSED
+"callTestCase(findTestCase(""Profile/Step definition/User click pencil icon""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-09-07 00:59:03,2023-09-07 00:59:04,1.322s,PASSED
+"callTestCase(findTestCase(""Profile/Step definition/User click profile name""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-09-07 00:59:04,2023-09-07 00:59:06,1.380s,PASSED
+"callTestCase(findTestCase(""Profile/Step definition/User go to profile page""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-09-07 00:59:06,2023-09-07 00:59:07,1.470s,PASSED
+"callTestCase(findTestCase(""Profile/Step definition/User input name""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-09-07 00:59:07,2023-09-07 00:59:09,1.693s,PASSED
+"callTestCase(findTestCase(""Profile/Step definition/User input city""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-09-07 00:59:09,2023-09-07 00:59:10,1.490s,PASSED
+"callTestCase(findTestCase(""Profile/Step definition/User input address""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-09-07 00:59:10,2023-09-07 00:59:12,2.093s,PASSED
+"callTestCase(findTestCase(""Profile/Step definition/User input phone number""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-09-07 00:59:12,2023-09-07 00:59:14,1.680s,PASSED
+"callTestCase(findTestCase(""Profile/Step definition/Click button Simpan""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-09-07 00:59:14,2023-09-07 00:59:15,1.389s,PASSED
+"callTestCase(findTestCase(""Profile/Step definition/User success edit profile""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,2023-09-07 00:59:15,2023-09-07 00:59:17,1.308s,PASSED

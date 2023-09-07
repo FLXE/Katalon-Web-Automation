@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>fieldpassword</name>
+   <name>fieldkota</name>
    <tag></tag>
-   <elementGuidId>624e2f21-e01f-4c92-99c8-8609bcba6d06</elementGuidId>
+   <elementGuidId>7f4a4107-c884-4629-9de7-953d8393b9de</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@id='user_password']</value>
+         <value>//select[@id='user_city_id']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@id='user_password']</value>
-      <webElementGuid>ab0d155a-dabf-49d9-bd38-e50e880539ea</webElementGuid>
+      <value>//select[@id='user_city_id']</value>
+      <webElementGuid>afbcdedc-2313-4a94-adea-12fbcac08486</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
