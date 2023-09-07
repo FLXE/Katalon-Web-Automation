@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//ul[@class='dropdown-menu notification-dropdown-menu px-4 show']/li[1]/a[@href='/users/56213/offers']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//ul[@class='dropdown-menu notification-dropdown-menu px-4 show']/li[1]/a[@href='/users/56213/offers']</value>
-      <webElementGuid>23f82fd5-89f0-40bb-b7d8-8b3e981138c0</webElementGuid>
+      <webElementGuid>913207db-009c-4814-b86c-92a5ba4c3ab1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

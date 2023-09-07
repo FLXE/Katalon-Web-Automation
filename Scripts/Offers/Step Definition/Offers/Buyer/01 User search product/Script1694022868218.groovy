@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Offers/btnHomepage'))
+WebUI.navigateToUrl('https://secondhand.binaracademy.org')
 
-WebUI.verifyElementPresent(findTestObject('Categories/fieldSearch'), 0)
+WebUI.verifyElementPresent(findTestObject('Categories/fieldSearch'), 3)
 
-WebUI.setText(findTestObject('Categories/fieldSearch'), FunkoPOP)
+WebUI.setText(findTestObject('Categories/fieldSearch'), 'FunkoPOP')
 
 WebUI.sendKeys(findTestObject('Categories/fieldSearch'), Keys.chord(Keys.ENTER))
 
