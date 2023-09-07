@@ -12,7 +12,7 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>fd9ec72e-c98c-451b-83ed-92d52dd598ff</testSuiteGuid>
    <testCaseLink>
-      <guid>8ff7fe71-9a8d-4b7d-8d65-a84d5b2d815b</guid>
+      <guid>03ef8336-fcce-469b-ba45-93e05b07519b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Categories/Pages/User search available product</testCaseId>
