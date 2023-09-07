@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>OFR000 Seller Create Product</name>
+   <name>Verify product successfully created</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>6c25cdfc-da6f-4420-a6c9-03ea6a53cc04</testCaseGuid>
+   <testCaseGuid>00f7080d-31f1-4df2-9bea-bd1dcf89600a</testCaseGuid>
 </TestCaseEntity>

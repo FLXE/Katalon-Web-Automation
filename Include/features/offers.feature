@@ -1,6 +1,12 @@
 @offers
 Feature: Offers
 
+  @OFR000
+  Scenario: Seller create product for offer
+    Given Seller already login and on the homepage
+    When Seller create the product
+		Then Product is created and ready to be offered
+
   @OFR001
   Scenario: Buyer offer to buy product
     Given Buyer sucessfully login and landed on homepage
@@ -21,7 +27,7 @@ Feature: Offers
 		
 	@OFR003
 	Scenario: Seller rejecting buyer offer
-		Given Buyer offer product
+		Given Buyer offered a product
 		When User clicked on notification icon
 		And Select the offer notification from buyer
 		And User click on Tolak button

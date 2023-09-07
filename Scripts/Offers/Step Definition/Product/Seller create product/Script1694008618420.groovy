@@ -38,5 +38,3 @@ WebUI.uploadFile(findTestObject('Offers/Product/fieldGambarJual'), 'D:\\deadpool
 
 WebUI.click(findTestObject('Offers/Product/btnTerbitkanJual'))
 
-WebUI.verifyElementPresent(findTestObject('Offers/Product/btnHapusProduk'), 5)
-

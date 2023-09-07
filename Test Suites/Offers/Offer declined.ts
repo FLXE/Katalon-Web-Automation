@@ -15,7 +15,7 @@
       <guid>af7f892a-ab5b-46b4-9d90-115b9456276e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Offers/Test Case/OFR000 Seller Create Product</testCaseId>
+      <testCaseId>Test Cases/Offers/Test Case/OFR000 Seller Create Product for offer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

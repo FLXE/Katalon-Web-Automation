@@ -26,11 +26,11 @@ WebUI.callTestCase(findTestCase('Offers/Step Definition/Offers/Seller/05 User go
 
 WebUI.callTestCase(findTestCase('Offers/Step Definition/Offers/Seller/06 User click status button'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Offers/Step Definition/Offers/Seller/07 User select finished status'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Offers/Step Definition/Offers/Seller/07 User select cancelled status'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Offers/Step Definition/Offers/Seller/08 User click kirim status button'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Offers/Step Definition/Offers/Seller/09 Verify offer status become sold'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Offers/Step Definition/Offers/Seller/09 Verify offer status become cancelled'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Offers/Step Definition/Generic Task/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
