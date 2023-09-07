@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnTerbitkan</name>
+   <tag></tag>
+   <elementGuidId>3d5932f7-f249-4f49-bee1-633eba3934a3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;product_status_published&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;product_status_published&quot;]</value>
+      <webElementGuid>0cac7acf-2b0c-4b0b-9f60-e882ec521e4f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
