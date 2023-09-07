@@ -15,7 +15,7 @@
       <guid>55bd589d-8ce0-4831-b4b1-dcf2ea03fc28</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Case/Edit Profile with valid data</testCaseId>
+      <testCaseId>Test Cases/Profile/Test Case/Edit Profile with valid data</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

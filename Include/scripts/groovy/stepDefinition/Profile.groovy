@@ -44,75 +44,56 @@ import cucumber.api.java.en.When
 
 
 
-public class profile {
-	@Given("User Success login with valid credential")
-	public void user_success_login_with_valid_credential() {
-		// Write code here that turns the phrase above into concrete actions
-		WebUI.callTestCase(findTestCase('Login/Test Case/User Success login with valid credential'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
-
-	@When("User click pencil icon")
-	public void user_click_pencil_icon() {
-		// Write code here that turns the phrase above into concrete actions
-		WebUI.callTestCase(findTestCase('Profile/Step definition/User click pencil icon'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
-
-	@And("User click profile name")
-	public void user_click_profile_name() {
-		// Write code here that turns the phrase above into concrete actions
-		WebUI.callTestCase(findTestCase('Profile/Step definition/User click profile name'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
-
-	@And("User go to profile page")
-	public void user_go_to_profile_page() {
-		// Write code here that turns the phrase above into concrete actions
-		WebUI.callTestCase(findTestCase('Profile/Step definition/User go to profile page'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
-
-	@And("User input name")
-	public void user_input_name() {
-		// Write code here that turns the phrase above into concrete actions
-		WebUI.callTestCase(findTestCase('Profile/Step definition/User input name'), [:], FailureHandling.STOP_ON_FAILURE)
-
-	}
-
-	@And("User input city")
-	public void user_input_city() {
-		// Write code here that turns the phrase above into concrete actions
-		WebUI.callTestCase(findTestCase('Profile/Step definition/User input city'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
-
-	@And("User input address")
-	public void user_input_address() {
-		// Write code here that turns the phrase above into concrete actions
-		WebUI.callTestCase(findTestCase('Profile/Step definition/User input address'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
-
-	@And("User input phone number")
-	public void user_input_phone_number() {
-		// Write code here that turns the phrase above into concrete actions
-		WebUI.callTestCase(findTestCase('Profile/Step definition/User input phone number'), [:], FailureHandling.STOP_ON_FAILURE)
-
-	}
-
-	@And("Click button Simpan")
-	public void click_button_simpan() {
-		// Write code here that turns the phrase above into concrete actions
-		WebUI.callTestCase(findTestCase('Profile/Step definition/Click button Simpan'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
-
-	@Then("User success edit profile")
-	public void user_success_edit_profile() {
-		// Write code here that turns the phrase above into concrete actions
-		WebUI.callTestCase(findTestCase('Profile/Step definition/User success edit profile'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
+class Profile {
+	@Given("user succes login with valid credential")
+public void user_succes_login_with_valid_credential() {
+    WebUI.callTestCase(findTestCase('Login/Test Case/User Success login with valid credential'), [:], FailureHandling.STOP_ON_FAILURE)
 }
 
+@When("user click pencil icon")
+public void user_click_pencil_icon() {
+    WebUI.callTestCase(findTestCase('Profile/Step definition/User click pencil icon'), [:], FailureHandling.STOP_ON_FAILURE)
+}
 
+@When("user click profile name")
+public void user_click_profile_name() {
+    WebUI.callTestCase(findTestCase('Profile/Step definition/User click profile name'), [:], FailureHandling.STOP_ON_FAILURE)
+}
 
+@When("user go to profil page")
+public void user_go_to_profil_page() {
+    WebUI.callTestCase(findTestCase('Profile/Step definition/User go to profile page'), [:], FailureHandling.STOP_ON_FAILURE)
+}
 
+@When("user input nama")
+public void user_input_nama() {
+    WebUI.callTestCase(findTestCase('Profile/Step definition/User input name'), [:], FailureHandling.STOP_ON_FAILURE)
+}
 
+@When("user input city")
+public void user_input_city() {
+   WebUI.callTestCase(findTestCase('Profile/Step definition/User input city'), [:], FailureHandling.STOP_ON_FAILURE)
+}
 
+@When("user input address")
+public void user_input_address() {
+    WebUI.callTestCase(findTestCase('Profile/Step definition/User input address'), [:], FailureHandling.STOP_ON_FAILURE)
+}
 
+@When("user input phone number")
+public void user_input_phone_number() {
+    WebUI.callTestCase(findTestCase('Profile/Step definition/User input phone number'), [:], FailureHandling.STOP_ON_FAILURE)
+}
+
+@When("click button simpan")
+public void click_button_simpan() {
+    WebUI.callTestCase(findTestCase('Profile/Step definition/Click button Simpan'), [:], FailureHandling.STOP_ON_FAILURE)
+}
+
+@Then("user success edit profile")
+public void user_success_edit_profile() {
+    WebUI.callTestCase(findTestCase('Profile/Step definition/User success edit profile'), [:], FailureHandling.STOP_ON_FAILURE)
+}
+}
 
 
