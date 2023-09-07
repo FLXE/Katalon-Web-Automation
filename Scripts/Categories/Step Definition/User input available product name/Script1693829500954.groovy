@@ -25,5 +25,4 @@ WebUI.sendKeys(findTestObject('Categories/fieldSearch'), Keys.chord(Keys.ENTER))
 
 WebUI.scrollToElement(findTestObject('Categories/typedavailableProduct'), 30)
 
-WebUI.executeJavaScript('document.body.style.zoom=\'50%\'', null)
 

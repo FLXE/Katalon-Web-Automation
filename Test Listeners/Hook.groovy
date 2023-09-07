@@ -25,12 +25,12 @@ import com.kms.katalon.core.util.KeywordUtil
 
 class Hook {
 	
-def openBrowser() {
-	WebUI.openBrowser('');
-	WebUI.maximizeWindow();
-	WebUI.navigateToUrl('secondhand.binaracademy.org/');
-}
-	
+//def openBrowser() {
+//	WebUI.openBrowser('');
+//	WebUI.maximizeWindow();
+//	WebUI.navigateToUrl('secondhand.binaracademy.org/');
+//}
+//	
 //def closeBrowser() {
 //	WebUI.closeBrowser();
 //}
@@ -47,16 +47,19 @@ def openBrowser() {
 //	this.closeBrowser()
 //}
 	
-////@BeforeTestSuite
-////def beforeTestSuite(TestSuiteContext testSuiteContext) {
-////	KeywordUtil.logInfo('Test Suite: ' + testSuiteContext.getTestSuiteId())
-////	this.openBrowser()
-////}
-////
-////@AfterTestSuite
-////def afterTestSuite(TestSuiteContext testSuiteContext) {
-////	KeywordUtil.logInfo('Test Suite: ' + testSuiteContext.getTestSuiteId())
-////	this.closeBrowser()
+//@BeforeTestSuite
+//def beforeTestSuite(TestSuiteContext testSuiteContext) {
+//	KeywordUtil.logInfo('Test Suite: ' + testSuiteContext.getTestSuiteId())
+//	this.openBrowser()
 //}
-}
+//
+//@AfterTestSuite
+//def afterTestSuite(TestSuiteContext testSuiteContext) {
+//	KeywordUtil.logInfo('Test Suite: ' + testSuiteContext.getTestSuiteId())
+//	this.closeBrowser()
+//}
 
+
+
+
+}

@@ -19,5 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.verifyElementPresent(findTestObject('Categories/typedavailableProduct'), 10)
 
+WebUI.click(findTestObject('Categories/selectedAvaliableProduct'))
+
+WebUI.verifyElementPresent(findTestObject('Categories/btnBid'), 17)
+
+WebUI.executeJavaScript('document.body.style.zoom=\'50%\'', null)
+
 WebUI.closeBrowser()
 
