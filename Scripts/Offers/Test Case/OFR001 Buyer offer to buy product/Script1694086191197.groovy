@@ -19,10 +19,20 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Offers/Step Definition/Generic Task/Open browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Offers/Step Definition/Login/Login as Seller'), [('email') : 'deadpoolseller@email.com'
-        , ('password') : 'qabinar'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Offers/Step Definition/Login/Login as Buyer'), [('email') : 'deadpoolbuyer@email.com', ('password') : 'qabinar'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Offers/Step Definition/Product/Seller create product'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Offers/Step Definition/Offers/Buyer/01 User search product'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Offers/Step Definition/Offers/Buyer/02 User select product'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Offers/Step Definition/Offers/Buyer/03 User click tertarik button'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Offers/Step Definition/Offers/Buyer/04 User input harga tawar'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Offers/Step Definition/Offers/Buyer/05 User click kirim tawaran button'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Offers/Step Definition/Offers/Buyer/06 Verify offer is submitted'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Offers/Step Definition/Generic Task/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 

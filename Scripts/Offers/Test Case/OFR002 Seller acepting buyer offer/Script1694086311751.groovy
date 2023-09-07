@@ -22,7 +22,15 @@ WebUI.callTestCase(findTestCase('Offers/Step Definition/Generic Task/Open browse
 WebUI.callTestCase(findTestCase('Offers/Step Definition/Login/Login as Seller'), [('email') : 'deadpoolseller@email.com'
         , ('password') : 'qabinar'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Offers/Step Definition/Product/Seller create product'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Offers/Step Definition/Generic Task/Navigate to homepage'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Offers/Step Definition/Offers/Seller/01 User click notification icon'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Offers/Step Definition/Offers/Seller/02 User select offer notification'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Offers/Step Definition/Offers/Seller/03 User click terima button'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Offers/Step Definition/Offers/Seller/04 Verify offer status become accepted'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Offers/Step Definition/Generic Task/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
