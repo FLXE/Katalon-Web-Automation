@@ -31,32 +31,35 @@ def openBrowser() {
 	WebUI.navigateToUrl('secondhand.binaracademy.org/');
 }
 	
-//def closeBrowser() {
-//	WebUI.closeBrowser();
-//}
-//	
-//@BeforeTestCase
-//def beforeTestCase(TestCaseContext testCaseContext) {
-//	KeywordUtil.logInfo('Test Case: ' + testCaseContext.getTestCaseId())
+def closeBrowser() {
+	WebUI.closeBrowser();
+}
+	
+@BeforeTestCase
+def beforeTestCase(TestCaseContext testCaseContext) {
+	KeywordUtil.logInfo('Test Case: ' + testCaseContext.getTestCaseId())
+	this.openBrowser()
+}
+
+@AfterTestCase
+def afterTestCase(TestCaseContext testCaseContext) {
+	KeywordUtil.logInfo('Test Case: ' + testCaseContext.getTestCaseId())
+	this.closeBrowser()
+}
+	
+//@BeforeTestSuite
+//def beforeTestSuite(TestSuiteContext testSuiteContext) {
+//	KeywordUtil.logInfo('Test Suite: ' + testSuiteContext.getTestSuiteId())
 //	this.openBrowser()
 //}
 //
-//@AfterTestCase
-//def afterTestCase(TestCaseContext testCaseContext) {
-//	KeywordUtil.logInfo('Test Case: ' + testCaseContext.getTestCaseId())
+//@AfterTestSuite
+//def afterTestSuite(TestSuiteContext testSuiteContext) {
+//	KeywordUtil.logInfo('Test Suite: ' + testSuiteContext.getTestSuiteId())
 //	this.closeBrowser()
 //}
-	
-////@BeforeTestSuite
-////def beforeTestSuite(TestSuiteContext testSuiteContext) {
-////	KeywordUtil.logInfo('Test Suite: ' + testSuiteContext.getTestSuiteId())
-////	this.openBrowser()
-////}
-////
-////@AfterTestSuite
-////def afterTestSuite(TestSuiteContext testSuiteContext) {
-////	KeywordUtil.logInfo('Test Suite: ' + testSuiteContext.getTestSuiteId())
-////	this.closeBrowser()
-//}
-}
 
+
+
+
+}

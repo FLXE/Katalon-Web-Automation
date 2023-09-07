@@ -20,8 +20,8 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Categories/Step Definition/User already login'), [('email') : 'qabinar11@gmail.com', ('password') : 'qabinar'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Categories/Step Definition/User input available product name'), [('product_1') : 'bunga', ('product_2') : 'sepatu'
-        , ('product_3') : 'boneka'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Categories/Step Definition/User input available product name'), [('product_1') : 'bunga'
+        , ('product_2') : 'sepatu 123', ('product_3') : 'boneka'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Categories/Step Definition/User can find the available product'), [:], FailureHandling.STOP_ON_FAILURE)
 

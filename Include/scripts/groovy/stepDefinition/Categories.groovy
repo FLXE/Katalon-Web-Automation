@@ -20,8 +20,8 @@ class Categories {
 
 	@When("user input available product name")
 	public void user_input_available_product_name() {
-		WebUI.callTestCase(findTestCase('Categories/Step Definition/User input available product name'), [('product_1') : 'bunga', ('product_2') : 'sepatu'
-			, ('product_3') : 'boneka'], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Categories/Step Definition/User input available product name'), [('product_1') : 'bunga'
+			, ('product_2') : 'sepatu 123', ('product_3') : 'boneka'], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("user can find the available product")
