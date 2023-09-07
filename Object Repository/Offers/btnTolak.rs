@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//li[1]//label[@class='btn btn-outline-primary rounded-4 px-5']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>//li[1]//label[@class='btn btn-outline-primary rounded-4 px-5']</value>
-      <webElementGuid>5980fdb7-0c9a-4ab9-94dd-d7c6a2ede879</webElementGuid>
+      <webElementGuid>73b10426-4442-471c-be1b-2bd64c749611</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
