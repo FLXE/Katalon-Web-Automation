@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;product_images&quot;]</value>
+         <value>///input[@id=['product_image']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;product_images&quot;]</value>
-      <webElementGuid>5e924b6e-d852-46b4-ba47-fb6a687bde19</webElementGuid>
+      <value>///input[@id=['product_image']</value>
+      <webElementGuid>98ee16aa-2bcf-4a79-b5ff-82f93d3608c7</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

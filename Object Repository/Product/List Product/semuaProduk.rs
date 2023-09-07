@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>filedDescription</name>
+   <name>semuaProduk</name>
    <tag></tag>
-   <elementGuidId>6ff548b9-33df-4936-8661-a6da78277356</elementGuidId>
+   <elementGuidId>267961a5-4a8c-4315-bdd2-5231db79409c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//textarea[@id='product_description']</value>
+         <value>//span[.='Semua Produk']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//textarea[@id='product_description']</value>
-      <webElementGuid>8d53ab09-f3d7-4de7-9110-b9463fc17aa3</webElementGuid>
+      <value>//span[.='Semua Produk']</value>
+      <webElementGuid>a464f886-98db-4892-bf03-dc9693a4705b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

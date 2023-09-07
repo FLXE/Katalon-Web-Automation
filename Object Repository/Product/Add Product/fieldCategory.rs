@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'product_category_id']</value>
+         <value>//select[@id='product_category_id']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,9 +15,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>product_category_id</value>
-      <webElementGuid>72acc675-443c-4605-819a-9f55cb9c8322</webElementGuid>
+      <value>//select[@id='product_category_id']</value>
+      <webElementGuid>78868e7a-963f-48f7-a7aa-0372963fec9a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

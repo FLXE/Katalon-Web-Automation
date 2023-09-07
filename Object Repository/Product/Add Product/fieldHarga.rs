@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'product_price']</value>
+         <value>//input[@id='product_price']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,9 +15,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>product_price</value>
-      <webElementGuid>4ddbda74-dc8d-4f08-9f05-4271aa7c3c6a</webElementGuid>
+      <value>//input[@id='product_price']</value>
+      <webElementGuid>72d05213-792d-4db9-908d-04407589575e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

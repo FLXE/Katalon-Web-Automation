@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[contains(.,'Tambah Produk')]</value>
+         <value>//a[contains(.,'Jual')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -21,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[contains(.,'Tambah Produk')]</value>
-      <webElementGuid>36b3f48e-650a-4ec8-b21b-92e06f179a35</webElementGuid>
+      <value>//a[contains(.,'Jual')]</value>
+      <webElementGuid>b1da676e-df82-4d61-ac6c-29b8534a318e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
