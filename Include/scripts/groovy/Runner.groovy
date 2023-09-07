@@ -47,9 +47,9 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-features = "Include/features/login.feature",
+features = "Include/features/",
 glue = "stepDefinition",
-tags = "@Login",
+tags = ,
 monochrome = true
 )
 

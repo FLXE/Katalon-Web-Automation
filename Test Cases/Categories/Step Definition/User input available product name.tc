@@ -31,7 +31,7 @@
       <name>product_1</name>
    </variable>
    <variable>
-      <defaultValue>'sepatu'</defaultValue>
+      <defaultValue>'sepatu 123'</defaultValue>
       <description></description>
       <id>341bbcbf-f597-4d29-b6aa-a315c6b8ef52</id>
       <masked>false</masked>
