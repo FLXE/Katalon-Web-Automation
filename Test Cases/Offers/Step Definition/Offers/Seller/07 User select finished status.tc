@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>07 User click status button</name>
+   <name>07 User select finished status</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f985a728-d252-4983-96a1-7c0b9e749986</testCaseGuid>
+   <testCaseGuid>d5347134-7dee-4d2c-aab9-42c89e3903d2</testCaseGuid>
 </TestCaseEntity>

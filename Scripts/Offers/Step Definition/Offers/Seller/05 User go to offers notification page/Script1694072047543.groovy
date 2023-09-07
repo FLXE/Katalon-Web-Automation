@@ -17,3 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.navigateToUrl('https://secondhand.binaracademy.org/users/56213/offers')
+
+WebUI.verifyElementText(findTestObject('Offers/textOfferStatus'), 'Penawaran produk diterima')
+
