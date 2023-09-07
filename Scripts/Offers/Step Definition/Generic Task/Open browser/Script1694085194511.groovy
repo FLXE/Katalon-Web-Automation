@@ -17,13 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl('https://secondhand.binaracademy.org/users/sign_in')
+WebUI.openBrowser('')
 
-WebUI.verifyElementPresent(findTestObject('Categories/tagMasuk'), 3)
-
-WebUI.setText(findTestObject('Categories/fieldEmail'), email)
-
-WebUI.setText(findTestObject('Categories/fieldPassword'), password)
-
-WebUI.click(findTestObject('Categories/btnLogin'))
+WebUI.maximizeWindow()
 

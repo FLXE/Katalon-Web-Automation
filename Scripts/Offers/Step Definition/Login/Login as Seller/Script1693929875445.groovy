@@ -17,10 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.maximizeWindow()
-
 WebUI.navigateToUrl('https://secondhand.binaracademy.org/users/sign_in')
 
 WebUI.verifyElementPresent(findTestObject('Categories/tagMasuk'), 3)

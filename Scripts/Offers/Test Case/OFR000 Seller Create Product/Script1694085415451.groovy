@@ -17,13 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl('https://secondhand.binaracademy.org/users/sign_in')
+WebUI.callTestCase(findTestCase('Offers/Step Definition/Login/Login as Seller'), [('email') : 'deadpoolseller@email.com'
+        , ('password') : 'qabinar'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Categories/tagMasuk'), 3)
+WebUI.callTestCase(findTestCase('Offers/Step Definition/Product/Seller create product'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Categories/fieldEmail'), email)
-
-WebUI.setText(findTestObject('Categories/fieldPassword'), password)
-
-WebUI.click(findTestObject('Categories/btnLogin'))
+WebUI.callTestCase(findTestCase('Offers/Step Definition/Generic Task/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
