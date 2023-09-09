@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>fieldEmail</name>
+   <name>fieldemail</name>
    <tag></tag>
-   <elementGuidId>70a23879-09ba-4090-9993-5f11b463045f</elementGuidId>
+   <elementGuidId>9282f2bf-db81-4064-ac18-565a363cf6a9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -18,6 +18,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//input[@id='user_email']</value>
-      <webElementGuid>4b49fdcf-6dcb-4047-9494-f362b3890ec5</webElementGuid>
+      <webElementGuid>6b045e91-8970-4763-b933-6c697933886f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

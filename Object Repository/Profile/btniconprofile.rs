@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>fieldpassword</name>
+   <name>btniconprofile</name>
    <tag></tag>
-   <elementGuidId>624e2f21-e01f-4c92-99c8-8609bcba6d06</elementGuidId>
+   <elementGuidId>f2a60c86-3cea-485f-b489-0030538852d6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@id='user_password']</value>
+         <value>//li[@class='nav-item dropdown fs-5 d-none d-lg-block']//i[@class='bi bi-person me-4 me-lg-0']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@id='user_password']</value>
-      <webElementGuid>ab0d155a-dabf-49d9-bd38-e50e880539ea</webElementGuid>
+      <value>//li[@class='nav-item dropdown fs-5 d-none d-lg-block']//i[@class='bi bi-person me-4 me-lg-0']</value>
+      <webElementGuid>45ccd7b1-1a2c-4865-9431-bc44dd727879</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -3,7 +3,7 @@
    <description></description>
    <name>btnMasuk</name>
    <tag></tag>
-   <elementGuidId>f745f13a-c571-4fdd-9f1b-ea8788922818</elementGuidId>
+   <elementGuidId>1b3aaff1-8a6e-47dd-a653-3b9193d5b3c9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -18,6 +18,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//input[@name='commit']</value>
-      <webElementGuid>d654a77a-eb36-4314-aabb-3f7f098fbeb6</webElementGuid>
+      <webElementGuid>c08f8a8a-3f61-4373-98d7-fbee4533554b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
