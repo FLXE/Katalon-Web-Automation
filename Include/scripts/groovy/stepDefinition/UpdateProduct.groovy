@@ -42,7 +42,7 @@ import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
-class updateproductnew {
+class updateproduct {
 
 	@Given("user success login")
 	public void user_success_login() {
@@ -89,12 +89,32 @@ class updateproductnew {
 		WebUI.callTestCase(findTestCase('Product/Update Product/Step Definition/09 user succes update product'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@When("user input product name blank")
+	@Given("seller has login")
+	public void seller_has_login() {
+		WebUI.callTestCase(findTestCase('Product/Update Product/Step Definition/01 user success login'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@When("seller click humburger icon")
+	public void seller_click_humburger_icon() {
+		WebUI.callTestCase(findTestCase('Product/Update Product/Step Definition/02 user click humburger icon'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@And("seler select product")
+	public void seler_select_product() {
+		WebUI.callTestCase(findTestCase('Product/Update Product/Step Definition/03 user choose product'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@And("seller click edit")
+	public void seller_click_edit() {
+		WebUI.callTestCase(findTestCase('Product/Update Product/Step Definition/04 user click button edit'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@And("user input product name blank")
 	public void user_input_product_name_blank() {
 		WebUI.callTestCase(findTestCase('Product/Update Product/Step Definition/10 user input product name blank'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@When("user input product price blank")
+	@And("user input product price blank")
 	public void user_input_product_price_blank() {
 		WebUI.callTestCase(findTestCase('Product/Update Product/Step Definition/11 user input product price blank'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
