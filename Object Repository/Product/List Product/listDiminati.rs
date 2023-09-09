@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btnTerbitkan</name>
+   <name>listDiminati</name>
    <tag></tag>
-   <elementGuidId>3d5932f7-f249-4f49-bee1-633eba3934a3</elementGuidId>
+   <elementGuidId>0952f566-ea0d-41cd-bea9-5fc617687e5b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//label[@class='btn btn-primary w-50 rounded-4 p-3']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
+         <value>//div[@class='card px-0 border-0 shadow h-100 pb-4 rounded-4']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//label[@class='btn btn-primary w-50 rounded-4 p-3']</value>
-      <webElementGuid>5aa0b89d-0aa7-4a9f-974f-4dc3fa8784c6</webElementGuid>
+      <value>//div[@class='card px-0 border-0 shadow h-100 pb-4 rounded-4']</value>
+      <webElementGuid>29bfb264-36b7-4f41-aba4-d62290316738</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

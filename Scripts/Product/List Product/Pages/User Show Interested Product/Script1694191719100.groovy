@@ -17,7 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementPresent(findTestObject('Product/Add Product/btnUploadFotoProduk'), 7)
+WebUI.callTestCase(findTestCase('Product/Add Product/Step Definition/User Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.uploadFile(findTestObject('Product/Add Product/btnUploadFotoProduk'), 'C:\\Users\\Handal-11\\git\\webautomationssteamdeadpool\\uploadimage\\60111.jpg')
+WebUI.callTestCase(findTestCase('Product/List Product/Step Definition/User Click Hamburger Icon'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Product/List Product/Step Definition/User Click Diminati'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Product/List Product/Step Definition/User Success Get Diminati Product'), [:], FailureHandling.STOP_ON_FAILURE)
 

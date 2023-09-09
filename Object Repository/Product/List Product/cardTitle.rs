@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btnTerbitkan</name>
+   <name>cardTitle</name>
    <tag></tag>
-   <elementGuidId>3d5932f7-f249-4f49-bee1-633eba3934a3</elementGuidId>
+   <elementGuidId>e1a7715f-d940-46a7-b298-778042105546</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//label[@class='btn btn-primary w-50 rounded-4 p-3']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
+         <value>//h5[@class='card-title fs-5 fw-bolder']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//label[@class='btn btn-primary w-50 rounded-4 p-3']</value>
-      <webElementGuid>5aa0b89d-0aa7-4a9f-974f-4dc3fa8784c6</webElementGuid>
+      <value>//h5[@class='card-title fs-5 fw-bolder']</value>
+      <webElementGuid>2b79e5ad-4214-4714-abfe-e5c0242d8138</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

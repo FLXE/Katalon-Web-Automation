@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btnTerbitkan</name>
+   <name>divNameCantBlank</name>
    <tag></tag>
-   <elementGuidId>3d5932f7-f249-4f49-bee1-633eba3934a3</elementGuidId>
+   <elementGuidId>3c40a0e3-1a11-47d2-af91-e9b5dd6a90b6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//label[@class='btn btn-primary w-50 rounded-4 p-3']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
+         <value>//div[@class='col-11']//div[@class='mb-4']/div[contains(.,&quot;Name can't be blank&quot;)]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//label[@class='btn btn-primary w-50 rounded-4 p-3']</value>
-      <webElementGuid>5aa0b89d-0aa7-4a9f-974f-4dc3fa8784c6</webElementGuid>
+      <value>//div[@class='col-11']//div[@class='mb-4']/div[contains(.,&quot;Name can't be blank&quot;)]</value>
+      <webElementGuid>0bfae96c-0a0c-4ce5-b4c0-2e28579e0993</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

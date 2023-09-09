@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btnTerbitkan</name>
+   <name>listTerjual</name>
    <tag></tag>
-   <elementGuidId>3d5932f7-f249-4f49-bee1-633eba3934a3</elementGuidId>
+   <elementGuidId>a3dd68b6-cdf4-4482-9914-d308658933a5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//label[@class='btn btn-primary w-50 rounded-4 p-3']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
+         <value>//img[@src='/empty-product.svg']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//label[@class='btn btn-primary w-50 rounded-4 p-3']</value>
-      <webElementGuid>5aa0b89d-0aa7-4a9f-974f-4dc3fa8784c6</webElementGuid>
+      <value>//img[@src='/empty-product.svg']</value>
+      <webElementGuid>647385a3-599f-461b-a1f0-0df6b9c4d46f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

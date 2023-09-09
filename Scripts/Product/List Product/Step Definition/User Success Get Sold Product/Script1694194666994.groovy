@@ -17,7 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementPresent(findTestObject('Product/Add Product/btnUploadFotoProduk'), 7)
+WebUI.verifyElementPresent(findTestObject('Product/List Product/listTerjual'), 10)
 
-WebUI.uploadFile(findTestObject('Product/Add Product/btnUploadFotoProduk'), 'C:\\Users\\Handal-11\\git\\webautomationssteamdeadpool\\uploadimage\\60111.jpg')
+WebUI.delay(5)
+
+WebUI.closeBrowser()
 

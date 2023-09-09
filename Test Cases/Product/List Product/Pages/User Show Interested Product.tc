@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>User Successfull Add Product</name>
+   <name>User Show Interested Product</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>71c71eab-4c07-4b3d-b247-df8e2558f191</testCaseGuid>
+   <testCaseGuid>d1cf310b-ecd3-4e4a-bc38-babfd716d38c</testCaseGuid>
 </TestCaseEntity>

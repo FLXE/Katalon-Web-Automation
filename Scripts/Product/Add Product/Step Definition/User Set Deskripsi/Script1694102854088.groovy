@@ -23,5 +23,3 @@ WebUI.setText(findTestObject('Product/Add Product/filedDescription'), 'Deskripsi
 
 WebUI.scrollToElement(findTestObject('Product/Add Product/btnTerbitkan'), 7)
 
-WebUI.verifyElementPresent(findTestObject('Product/Add Product/btnTerbitkan'), 3)
-

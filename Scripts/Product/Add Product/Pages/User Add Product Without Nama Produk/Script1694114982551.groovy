@@ -17,7 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementPresent(findTestObject('Product/Add Product/btnUploadFotoProduk'), 7)
+WebUI.callTestCase(findTestCase('Product/Add Product/Step Definition/User Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.uploadFile(findTestObject('Product/Add Product/btnUploadFotoProduk'), 'C:\\Users\\Handal-11\\git\\webautomationssteamdeadpool\\uploadimage\\60111.jpg')
+WebUI.callTestCase(findTestCase('Product/Add Product/Step Definition/User Click Button Jual'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Product/Add Product/Step Definition/User Input Harga Produk'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Product/Add Product/Step Definition/User Set Categories'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Product/Add Product/Step Definition/User Set Deskripsi'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Product/Add Product/Step Definition/User Add Image'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Product/Add Product/Step Definition/User Click Terbitkan'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Product/Add Product/Step Definition/User Failed Add Product Because Name Blank'), [:], 
+    FailureHandling.STOP_ON_FAILURE)
 
