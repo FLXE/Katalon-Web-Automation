@@ -17,9 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
-
 WebUI.verifyElementPresent(findTestObject('Register/fieldEmailDaftar'), 3)
 
-WebUI.setText(findTestObject('Register/fieldEmailDaftar'), 'daftartes@gmail.com')
+WebUI.setText(findTestObject('Register/fieldEmailDaftar'), 'daftartesteam1@gmail.com')
 

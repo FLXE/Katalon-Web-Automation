@@ -21,5 +21,5 @@ WebUI.verifyElementPresent(findTestObject('Profile/btnprofilepicture'), 3)
 
 WebUI.click(findTestObject('Profile/btnprofilepicture'))
 
-WebUI.uploadFile(findTestObject('Profile/btnprofilepicture'), 'C:\\Users\\Revi\\Desktop\\image.jpg')
+WebUI.uploadFile(findTestObject('Profile/btnprofilepicture'), 'D:\\image.jpg')
 
