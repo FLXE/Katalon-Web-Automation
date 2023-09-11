@@ -64,6 +64,7 @@ class Offers {
 	public void product_is_created_and_ready_to_be_offered() {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.callTestCase(findTestCase('Offers/Step Definition/Product/Verify product successfully created'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Offers/Step Definition/Generic Task/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Given("Buyer sucessfully login and landed on homepage")
@@ -107,6 +108,7 @@ class Offers {
 	public void offer_submitted_awaiting_seller_respond() {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.callTestCase(findTestCase('Offers/Step Definition/Offers/Buyer/06 Verify offer is submitted'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Offers/Step Definition/Generic Task/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Given("Buyer offer product")
@@ -140,6 +142,7 @@ class Offers {
 	public void offer_status_become_accepted() {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.callTestCase(findTestCase('Offers/Step Definition/Offers/Seller/04 Verify offer status become accepted'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Offers/Step Definition/Generic Task/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Given("Buyer offered a product")
@@ -173,6 +176,7 @@ class Offers {
 	public void offer_status_become_rejected() {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.callTestCase(findTestCase('Offers/Step Definition/Offers/Seller/04 Verify offer status become rejected'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Offers/Step Definition/Generic Task/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Given("Seller accept buyer offer")
@@ -206,6 +210,7 @@ class Offers {
 	public void offer_status_changed_to_sold() {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.callTestCase(findTestCase('Offers/Step Definition/Offers/Seller/09 Verify offer status become sold'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Offers/Step Definition/Generic Task/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Given("Seller accepted buyer offer")
