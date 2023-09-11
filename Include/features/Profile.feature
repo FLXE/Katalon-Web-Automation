@@ -1,7 +1,7 @@
 @Profile
 Feature: Profile
 
-  @PRF001
+ @PRF001
   Scenario: Edit profil with valid data
     Given user succes login with valid credential
     When user click pencil icon

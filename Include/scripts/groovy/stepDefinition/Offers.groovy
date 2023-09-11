@@ -45,31 +45,32 @@ import cucumber.api.java.en.When
 
 
 class Offers {
-	
+
 	@Given("Seller already login and on the homepage")
 	public void seller_already_login_and_on_the_homepage() {
 		// Write code here that turns the phrase above into concrete actions
+		WebUI.callTestCase(findTestCase('Offers/Step Definition/Generic Task/Open browser'), [:], FailureHandling.STOP_ON_FAILURE)
 		WebUI.callTestCase(findTestCase('Offers/Step Definition/Login/Login as Seller'), [('email') : 'deadpoolseller@email.com'
-        , ('password') : 'qabinar'], FailureHandling.STOP_ON_FAILURE)
+			, ('password') : 'qabinar'], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("Seller create the product")
 	public void seller_create_the_product() {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.callTestCase(findTestCase('Offers/Step Definition/Product/Seller create product'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@Then("Product is created and ready to be offered")
 	public void product_is_created_and_ready_to_be_offered() {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.callTestCase(findTestCase('Offers/Step Definition/Product/Verify product successfully created'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@Given("Buyer sucessfully login and landed on homepage")
 	public void buyer_sucessfully_login_and_landed_on_homepage() {
-		// Write code here that turns the phrase above into concrete actions
-		WebUI.callTestCase(findTestCase('Offers/Step Definition/Login/Login as Buyer'), [('email') : 'deadpoolbuyer@email.com', ('password') : 'qabinar'], 
-    FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Offers/Step Definition/Generic Task/Open browser'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Offers/Step Definition/Login/Login as Buyer'), [('email') : 'deadpoolbuyer@email.com', ('password') : 'qabinar'],
+		FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@When("User search product")
@@ -110,10 +111,10 @@ class Offers {
 
 	@Given("Buyer offer product")
 	public void buyer_offer_product() {
-		// Write code here that turns the phrase above into concrete actions
+		WebUI.callTestCase(findTestCase('Offers/Step Definition/Generic Task/Open browser'), [:], FailureHandling.STOP_ON_FAILURE)
 		WebUI.callTestCase(findTestCase('Offers/Step Definition/Login/Login as Seller'), [('email') : 'deadpoolseller@email.com'
-        , ('password') : 'qabinar'], FailureHandling.STOP_ON_FAILURE)
-		
+			, ('password') : 'qabinar'], FailureHandling.STOP_ON_FAILURE)
+
 		WebUI.callTestCase(findTestCase('Offers/Step Definition/Generic Task/Navigate to homepage'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
@@ -143,13 +144,13 @@ class Offers {
 
 	@Given("Buyer offered a product")
 	public void buyer_offered_a_product() {
-		// Write code here that turns the phrase above into concrete actions
+		WebUI.callTestCase(findTestCase('Offers/Step Definition/Generic Task/Open browser'), [:], FailureHandling.STOP_ON_FAILURE)
 		WebUI.callTestCase(findTestCase('Offers/Step Definition/Login/Login as Seller'), [('email') : 'deadpoolseller@email.com'
-		, ('password') : 'qabinar'], FailureHandling.STOP_ON_FAILURE)
-		
+			, ('password') : 'qabinar'], FailureHandling.STOP_ON_FAILURE)
+
 		WebUI.callTestCase(findTestCase('Offers/Step Definition/Generic Task/Navigate to homepage'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@When("User clicked on notification icon")
 	public void user_clicked_on_notification_icon() {
 		// Write code here that turns the phrase above into concrete actions
@@ -176,10 +177,10 @@ class Offers {
 
 	@Given("Seller accept buyer offer")
 	public void seller_accept_buyer_offer() {
-		// Write code here that turns the phrase above into concrete actions
+		WebUI.callTestCase(findTestCase('Offers/Step Definition/Generic Task/Open browser'), [:], FailureHandling.STOP_ON_FAILURE)
 		WebUI.callTestCase(findTestCase('Offers/Step Definition/Login/Login as Seller'), [('email') : 'deadpoolseller@email.com'
-        , ('password') : 'qabinar'], FailureHandling.STOP_ON_FAILURE)
-		
+			, ('password') : 'qabinar'], FailureHandling.STOP_ON_FAILURE)
+
 		WebUI.callTestCase(findTestCase('Offers/Step Definition/Offers/Seller/05 User go to offers notification page'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
@@ -209,9 +210,9 @@ class Offers {
 
 	@Given("Seller accepted buyer offer")
 	public void seller_accepted_buyer_offer() {
-		// Write code here that turns the phrase above into concrete actions
+		WebUI.callTestCase(findTestCase('Offers/Step Definition/Generic Task/Open browser'), [:], FailureHandling.STOP_ON_FAILURE)
 		WebUI.callTestCase(findTestCase('Offers/Step Definition/Login/Login as Seller'), [('email') : 'deadpoolseller@email.com'
-        , ('password') : 'qabinar'], FailureHandling.STOP_ON_FAILURE)
+			, ('password') : 'qabinar'], FailureHandling.STOP_ON_FAILURE)
 
 		WebUI.callTestCase(findTestCase('Offers/Step Definition/Offers/Seller/05 User go to offers notification page'), [:], FailureHandling.STOP_ON_FAILURE)
 	}

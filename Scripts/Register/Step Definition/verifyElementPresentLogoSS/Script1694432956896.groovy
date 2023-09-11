@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-int RandomNumber
+WebUI.verifyElementPresent(findTestObject('Login/logoSS'), 3)
 
-RandomNumber = ((Math.random() * 1000) as int)
-
-WebUI.verifyElementPresent(findTestObject('Register/fieldEmailDaftar'), 3)
-
-WebUI.setText(findTestObject('Register/fieldEmailDaftar'), ('DeadPoolTeamBGT' + RandomNumber) + '@gmail.com')
+WebUI.closeBrowser()
 

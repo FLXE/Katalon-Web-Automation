@@ -49,7 +49,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 features = "Include/features/",
 glue = "stepDefinition",
-tags = "",
+tags = "@RGSTR001,@LGN001,@LGT001,@PRF001,@addProduct1,@listAllProduct1,@prd004,@del001,@OFR000,@OFR001,@OFR002,@OFR004",
 monochrome = true
 )
 

@@ -21,5 +21,3 @@ WebUI.verifyElementPresent(findTestObject('Logout/btnLogout'), 3)
 
 WebUI.click(findTestObject('Logout/btnLogout'))
 
-WebUI.closeBrowser()
-

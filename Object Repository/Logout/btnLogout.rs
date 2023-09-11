@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>[data-bs-popper='static'] [name='button']</value>
+         <value>//button[@class='btn btn-link text-decoration-none']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,9 +15,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>css</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>[data-bs-popper='static'] [name='button']</value>
-      <webElementGuid>e3d2adcd-0ee7-4e37-ba55-b0682f70c2c3</webElementGuid>
+      <value>//button[@class='btn btn-link text-decoration-none']</value>
+      <webElementGuid>92ad1a35-5790-41ae-a22a-d343df26e191</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
