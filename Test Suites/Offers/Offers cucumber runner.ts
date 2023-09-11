@@ -12,24 +12,24 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>46098faa-2604-44de-9912-0b4eb9e6f553</testSuiteGuid>
    <testCaseLink>
-      <guid>d05147d9-4c85-4c02-8979-54415ffb5a72</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Offers/Cucumber Runner/01 Offer declined</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>94aa4d79-3b4f-4dae-bc3f-1c070ea8aa86</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Offers/Cucumber Runner/02 Offer accepted and transaction finished</testCaseId>
+      <testCaseId>Test Cases/Offers/Cucumber Runner/Offer accepted and transaction finished</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>7256c1aa-7295-433d-bfac-789b7973b695</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Offers/Cucumber Runner/03 Offer accepted but transaction cancelled</testCaseId>
+      <testCaseId>Test Cases/Offers/Cucumber Runner/Offer accepted but transaction cancelled</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d05147d9-4c85-4c02-8979-54415ffb5a72</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Offers/Cucumber Runner/Offer declined</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

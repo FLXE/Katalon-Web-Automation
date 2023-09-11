@@ -50,7 +50,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 features = "Include/features/Offers.feature",
 glue = "stepDefinition",
-tags = "@OFR000, OFR001, OFR003",
+tags = "@OFR000, @OFR001, @OFR003",
 monochrome = true,
 plugin = [
 	"pretty",
