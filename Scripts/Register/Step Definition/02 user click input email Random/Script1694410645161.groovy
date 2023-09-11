@@ -17,17 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login/Step Definition/01 user landing on homepage'), [:], FailureHandling.STOP_ON_FAILURE)
+int RandomNumber
 
-WebUI.callTestCase(findTestCase('Login/Step Definition/02 user click button masuk in home page'), [:], FailureHandling.STOP_ON_FAILURE)
+RandomNumber = ((Math.random() * 1000) as int)
 
-WebUI.callTestCase(findTestCase('Register/Step Definition/00 User click text daftar'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Register/fieldEmailDaftar'), 3)
 
-WebUI.callTestCase(findTestCase('Register/Step Definition/01 user click input name'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Register/Step Definition/02 user click input email Random'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Register/Step Definition/03 user click input password'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Register/Step Definition/04 user click daftar success register'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Register/fieldEmailDaftar'), ('DeadPoolTeamBGT' + RandomNumber) + '@gmail.com')
 

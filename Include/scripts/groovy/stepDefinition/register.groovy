@@ -30,7 +30,7 @@ public class register {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.callTestCase(findTestCase('Login/Step Definition/01 user landing on homepage'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	//Sign Up with email already taken
 	@Given("user already on home page")
 	public void user_already_on_home_page() {
@@ -43,20 +43,20 @@ public class register {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.callTestCase(findTestCase('Login/Step Definition/02 user click button masuk in home page'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	////Sign Up with email already taken
 	@When("user click button masuk in home page")
 	public void user_click_button_masuk_in_home_page() {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.callTestCase(findTestCase('Login/Step Definition/02 user click button masuk in home page'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@And("user click text daftar")
 	public void user_click_text_daftar() {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.callTestCase(findTestCase('Register/Step Definition/00 User click text daftar'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	////Sign Up with email already taken
 	@And("user click text Daftar")
 	public void user_click_text_Daftar() {
@@ -77,13 +77,13 @@ public class register {
 		WebUI.callTestCase(findTestCase('Register/Step Definition/01 user click input name'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	
+
 	@And("user input Gmail")
 	public void  user_input_Gmail() {
 		// Write code here that turns the phrase above into concrete actions
-		WebUI.callTestCase(findTestCase('Register/Step Definition/02 user click input email'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Register/Step Definition/02 user click input email Random'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	////Sign Up with email already taken
 	@And("user input Email")
 	public void user_input_Email() {
@@ -96,7 +96,7 @@ public class register {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.callTestCase(findTestCase('Register/Step Definition/03 user click input password'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	////Sign Up with email already taken
 	@And("user input Password")
 	public void user_input_Password() {
@@ -115,7 +115,7 @@ public class register {
 		// Write code here that turns the phrase above into concrete actions
 		WebUI.callTestCase(findTestCase('Register/Step Definition/04 user click daftar'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@Then("user succesful signup and directed to homepage")
 	public void user_succesful_signup_and_directed_to_homepage() {
 		// Write code here that turns the phrase above into concrete actions
