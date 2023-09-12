@@ -1,0 +1,1286 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "user success delete product",
+        "description": "",
+        "id": "delete-product;user-success-delete-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13028527500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user success logged in",
+            "match": {
+              "location": "DeleteProduct.user_success_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1520318400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicked the humburger icon",
+            "match": {
+              "location": "DeleteProduct.user_clicked_the_humburger_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1301113700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user selected the product",
+            "match": {
+              "location": "DeleteProduct.user_selected_the_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1213704300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click button delete",
+            "match": {
+              "location": "DeleteProduct.user_click_button_delete()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2102777900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user success delete product",
+            "match": {
+              "location": "DeleteProduct.user_success_delete_product()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@deleteproduct"
+          },
+          {
+            "name": "@del001"
+          }
+        ]
+      }
+    ],
+    "name": "delete product",
+    "description": "",
+    "id": "delete-product",
+    "keyword": "Feature",
+    "uri": "Include/features/DeleteProduct.feature",
+    "tags": [
+      {
+        "name": "@deleteproduct",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Seller create product for offer",
+        "description": "",
+        "id": "offers;seller-create-product-for-offer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8623871600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Seller already login and on the homepage",
+            "match": {
+              "location": "Offers.seller_already_login_and_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8882354300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Seller create the product",
+            "match": {
+              "location": "Offers.seller_create_the_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 655079300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Product is created and ready to be offered",
+            "match": {
+              "location": "Offers.product_is_created_and_ready_to_be_offered()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@offers"
+          },
+          {
+            "name": "@OFR000"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Buyer offer to buy product",
+        "description": "",
+        "id": "offers;buyer-offer-to-buy-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9907746000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Buyer sucessfully login and landed on homepage",
+            "match": {
+              "location": "Offers.buyer_sucessfully_login_and_landed_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2366871600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User search product",
+            "match": {
+              "location": "Offers.user_search_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1342315000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User select product",
+            "match": {
+              "location": "Offers.user_select_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1211487300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click tertarik button",
+            "match": {
+              "location": "Offers.user_click_tertarik_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1315328400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User input harga tawar",
+            "match": {
+              "location": "Offers.user_input_harga_tawar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1246244900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User click kirim button",
+            "match": {
+              "location": "Offers.user_click_kirim_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 613156000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "offer submitted awaiting seller respond",
+            "match": {
+              "location": "Offers.offer_submitted_awaiting_seller_respond()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@offers"
+          },
+          {
+            "name": "@OFR001"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Seller accepting buyer offer",
+        "description": "",
+        "id": "offers;seller-accepting-buyer-offer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10233381800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Buyer offer product",
+            "match": {
+              "location": "Offers.buyer_offer_product()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1947111000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User click notification icon",
+            "match": {
+              "location": "Offers.user_click_notification_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1188510700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Select offer notification from buyer",
+            "match": {
+              "location": "Offers.select_offer_notification_from_buyer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1326326500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User click Terima button",
+            "match": {
+              "location": "Offers.user_click_Terima_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 705286500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Offer status become accepted",
+            "match": {
+              "location": "Offers.offer_status_become_accepted()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@offers"
+          },
+          {
+            "name": "@OFR002"
+          }
+        ]
+      },
+      {
+        "line": 37,
+        "name": "Seller change offer status to finished",
+        "description": "",
+        "id": "offers;seller-change-offer-status-to-finished",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10447145900,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Seller accept buyer offer",
+            "match": {
+              "location": "Offers.seller_accept_buyer_offer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1214061200,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User click status button",
+            "match": {
+              "location": "Offers.user_click_status_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1144182700,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User select finished status",
+            "match": {
+              "location": "Offers.user_select_finished_status()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 857774500,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User click the kirim button",
+            "match": {
+              "location": "Offers.user_click_the_kirim_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 674457300,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Offer status changed to sold",
+            "match": {
+              "location": "Offers.offer_status_changed_to_sold()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@offers"
+          },
+          {
+            "name": "@OFR004"
+          }
+        ]
+      }
+    ],
+    "name": "Offers",
+    "description": "",
+    "id": "offers",
+    "keyword": "Feature",
+    "uri": "Include/features/Offers.feature",
+    "tags": [
+      {
+        "name": "@offers",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Edit profil with valid data",
+        "description": "",
+        "id": "profile;edit-profil-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13740979000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user succes login with valid credential",
+            "match": {
+              "location": "Profile.user_succes_login_with_valid_credential()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1163762100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click pencil icon",
+            "match": {
+              "location": "Profile.user_click_pencil_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1173381200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click profile name",
+            "match": {
+              "location": "Profile.user_click_profile_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1158719300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user go to profil page",
+            "match": {
+              "location": "Profile.user_go_to_profil_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1239334800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user input nama",
+            "match": {
+              "location": "Profile.user_input_nama()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1220272900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user input city",
+            "match": {
+              "location": "Profile.user_input_city()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1637384200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user input address",
+            "match": {
+              "location": "Profile.user_input_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1657892600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user input phone number",
+            "match": {
+              "location": "Profile.user_input_phone_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1383518100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click button simpan",
+            "match": {
+              "location": "Profile.click_button_simpan()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1245037600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user success edit profile",
+            "match": {
+              "location": "Profile.user_success_edit_profile()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Profile"
+          },
+          {
+            "name": "@PRF001"
+          }
+        ]
+      }
+    ],
+    "name": "Profile",
+    "description": "",
+    "id": "profile",
+    "keyword": "Feature",
+    "uri": "Include/features/Profile.feature",
+    "tags": [
+      {
+        "name": "@Profile",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "seller success update product",
+        "description": "",
+        "id": "update-product;seller-success-update-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10845055100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user success login",
+            "match": {
+              "location": "updateproduct.user_success_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1443877300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click humburger icon",
+            "match": {
+              "location": "updateproduct.user_click_humburger_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1223129000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user select product",
+            "match": {
+              "location": "updateproduct.user_select_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1207187000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click button edit",
+            "match": {
+              "location": "updateproduct.user_click_button_edit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1870995800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user change product name",
+            "match": {
+              "location": "updateproduct.user_change_product_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2203886100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user change product price",
+            "match": {
+              "location": "updateproduct.user_change_product_price()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1911193900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user change product description",
+            "match": {
+              "location": "updateproduct.user_change_product_description()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1409587600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click button terbitkan",
+            "match": {
+              "location": "updateproduct.user_click_button_terbitkan()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3110492700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "product is updated",
+            "match": {
+              "location": "updateproduct.product_is_updated()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@updateproduct"
+          },
+          {
+            "name": "@prd004"
+          }
+        ]
+      }
+    ],
+    "name": "update product",
+    "description": "",
+    "id": "update-product",
+    "keyword": "Feature",
+    "uri": "Include/features/UpdateProduct.feature",
+    "tags": [
+      {
+        "name": "@updateproduct",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User Add Product With Valid Data",
+        "description": "",
+        "id": "add-new-product;user-add-product-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12048004600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Login Satu",
+            "match": {
+              "location": "addProduct.user_login_satu()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1285532300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click button Jual Satu",
+            "match": {
+              "location": "addProduct.user_click_button_jual_satu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1322790200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Input Nama Produk Satu",
+            "match": {
+              "location": "addProduct.user_input_nama_produk_satu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1305384600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Input Harga Produk Satu",
+            "match": {
+              "location": "addProduct.user_input_harga_produk_satu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2109672800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Set Categories Satu",
+            "match": {
+              "location": "addProduct.user_set_categories_satu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1700514300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Set Deskripsi Satu",
+            "match": {
+              "location": "addProduct.user_set_deskripsi_satu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1014454000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Add Image Satu",
+            "match": {
+              "location": "addProduct.user_add_image_satu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4309405400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Klik Terbitkan Satu",
+            "match": {
+              "location": "addProduct.user_klik_terbitkan_satu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2066334700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Product successfully published",
+            "match": {
+              "location": "addProduct.user_success_add_product1()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@addProduct"
+          },
+          {
+            "name": "@addProduct1"
+          }
+        ]
+      }
+    ],
+    "name": "Add New Product",
+    "description": "",
+    "id": "add-new-product",
+    "keyword": "Feature",
+    "uri": "Include/features/addProduct.feature",
+    "tags": [
+      {
+        "name": "@addProduct",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User View List All Products",
+        "description": "",
+        "id": "list-all-products;user-view-list-all-products",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9571586200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Already Login",
+            "match": {
+              "location": "listProducts.user_Already_Login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1314190000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Click hamburger icon",
+            "match": {
+              "location": "listProducts.user_Click_hamburger_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2258770600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User find products",
+            "match": {
+              "location": "listProducts.user_find_products()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@listAllProducts"
+          },
+          {
+            "name": "@listAllProduct1"
+          }
+        ]
+      }
+    ],
+    "name": "List All Products",
+    "description": "",
+    "id": "list-all-products",
+    "keyword": "Feature",
+    "uri": "Include/features/listProducts.feature",
+    "tags": [
+      {
+        "name": "@listAllProducts",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Login with registered credential",
+        "description": "",
+        "id": "login;login-with-registered-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5837738200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user already on homepage",
+            "match": {
+              "location": "login.user_already_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 993845500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click button masuk in homepage",
+            "match": {
+              "location": "login.user_click_button_masuk_in_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1028012700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user input email",
+            "match": {
+              "location": "login.user_input_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1041663000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User input password",
+            "match": {
+              "location": "login.user_input_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 938193200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click button masuk",
+            "match": {
+              "location": "login.user_click_button_masuk()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2202395900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user succesful login and directed to home page",
+            "match": {
+              "location": "login.user_succesful_login_and_directed_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@LGN001"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "Include/features/login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 6,
+        "name": "user succes logout",
+        "description": "",
+        "id": "logout;user-succes-logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9787697200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user already logged in",
+            "match": {
+              "location": "logout.user_already_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1318503500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click profile btn",
+            "match": {
+              "location": "logout.user_click_profile_btn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1174026200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click keluar btn",
+            "match": {
+              "location": "logout.user_click_keluar_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2207134400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user successfully logout account",
+            "match": {
+              "location": "logout.user_successfully_logout_account()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Logout"
+          },
+          {
+            "name": "@LGT001"
+          }
+        ]
+      }
+    ],
+    "name": "Logout",
+    "description": "",
+    "id": "logout",
+    "keyword": "Feature",
+    "uri": "Include/features/logout.feature",
+    "tags": [
+      {
+        "name": "@Logout",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Sign up with correct data",
+        "description": "",
+        "id": "register;sign-up-with-correct-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5681380200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user already on homepage",
+            "match": {
+              "location": "login.user_already_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1038660900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click button masuk in HomePage",
+            "match": {
+              "location": "register.user_click_button_masuk_in_HomePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1186461800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click text daftar",
+            "match": {
+              "location": "register.user_click_text_daftar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1240893300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user input name",
+            "match": {
+              "location": "register.user_input_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1338653500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user input Gmail",
+            "match": {
+              "location": "register.user_input_Gmail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1371760900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user input password",
+            "match": {
+              "location": "register.user_input_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1204751400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click daftar",
+            "match": {
+              "location": "register.user_click_daftar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2124414400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user succesful signup and directed to homepage",
+            "match": {
+              "location": "register.user_succesful_signup_and_directed_to_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          },
+          {
+            "name": "@RGSTR001"
+          }
+        ]
+      }
+    ],
+    "name": "Register",
+    "description": "",
+    "id": "register",
+    "keyword": "Feature",
+    "uri": "Include/features/register.feature",
+    "tags": [
+      {
+        "name": "@Register",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,536 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Login with registered credential",
+        "description": "",
+        "id": "login;login-with-registered-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8794772800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user already on homepage",
+            "match": {
+              "location": "login.user_already_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1549375100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click button masuk in homepage",
+            "match": {
+              "location": "login.user_click_button_masuk_in_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1402486701,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user input email",
+            "match": {
+              "location": "login.user_input_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1432895600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User input password",
+            "match": {
+              "location": "login.user_input_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1286420100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click button masuk",
+            "match": {
+              "location": "login.user_click_button_masuk()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2904182200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user succesful login and directed to home page",
+            "match": {
+              "location": "login.user_succesful_login_and_directed_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@LGN001"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Login with unregistered credential",
+        "description": "",
+        "id": "login;login-with-unregistered-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6839422500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user already on homepage",
+            "match": {
+              "location": "login.user_already_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1025997899,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user click button masuk in homepage",
+            "match": {
+              "location": "login.user_click_button_masuk_in_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1452366700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user input unregistered e-mail",
+            "match": {
+              "location": "login.user_input_unregistered_e_mail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1066254599,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User input password",
+            "match": {
+              "location": "login.user_input_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1017968900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user click button masuk",
+            "match": {
+              "location": "login.user_click_button_masuk()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2183932000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user can not login and warning pop up data not registered display",
+            "match": {
+              "location": "login.user_can_not_login_and_warning_pop_up_data_not_registered_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@LGN002"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "Include/features/login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 6,
+        "name": "user succes logout",
+        "description": "",
+        "id": "logout;user-succes-logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10193235499,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user already logged in",
+            "match": {
+              "location": "logout.user_already_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1280125500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click profile btn",
+            "match": {
+              "location": "logout.user_click_profile_btn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1248631900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click keluar btn",
+            "match": {
+              "location": "logout.user_click_keluar_btn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2302885800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user successfully logout account",
+            "match": {
+              "location": "logout.user_successfully_logout_account()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Logout"
+          },
+          {
+            "name": "@LGT001"
+          }
+        ]
+      }
+    ],
+    "name": "Logout",
+    "description": "",
+    "id": "logout",
+    "keyword": "Feature",
+    "uri": "Include/features/logout.feature",
+    "tags": [
+      {
+        "name": "@Logout",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Sign up with correct data",
+        "description": "",
+        "id": "register;sign-up-with-correct-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6021918000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user already on homepage",
+            "match": {
+              "location": "login.user_already_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1022839300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click button masuk in HomePage",
+            "match": {
+              "location": "register.user_click_button_masuk_in_HomePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1306659400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click text daftar",
+            "match": {
+              "location": "register.user_click_text_daftar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1313018600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user input name",
+            "match": {
+              "location": "register.user_input_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1452115200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user input Gmail",
+            "match": {
+              "location": "register.user_input_Gmail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1478329600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user input password",
+            "match": {
+              "location": "register.user_input_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1236135000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click daftar",
+            "match": {
+              "location": "register.user_click_daftar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2132330900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user succesful signup and directed to homepage",
+            "match": {
+              "location": "register.user_succesful_signup_and_directed_to_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          },
+          {
+            "name": "@RGSTR001"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Sign Up with email already taken",
+        "description": "",
+        "id": "register;sign-up-with-email-already-taken",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5997057400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user already on home page",
+            "match": {
+              "location": "register.user_already_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1067324999,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user click button masuk in home page",
+            "match": {
+              "location": "register.user_click_button_masuk_in_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 944157399,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user click text Daftar",
+            "match": {
+              "location": "register.user_click_text_Daftar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1062442199,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user input Name",
+            "match": {
+              "location": "register.user_input_Name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1355274201,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user input Email",
+            "match": {
+              "location": "register.user_input_Email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1029490400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user input Password",
+            "match": {
+              "location": "register.user_input_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 963387400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user click Daftar",
+            "match": {
+              "location": "register.user_click_Daftar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2331735400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user can not sign up account and pop up warning text email already taken",
+            "match": {
+              "location": "register.user_can_not_sign_up_account_and_pop_up_warning_text_email_already_taken()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          },
+          {
+            "name": "@RGSTR002"
+          }
+        ]
+      }
+    ],
+    "name": "Register",
+    "description": "",
+    "id": "register",
+    "keyword": "Feature",
+    "uri": "Include/features/register.feature",
+    "tags": [
+      {
+        "name": "@Register",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

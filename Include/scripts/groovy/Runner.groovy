@@ -50,7 +50,12 @@ import cucumber.api.junit.Cucumber;
 features = "Include/features/",
 glue = "stepDefinition",
 tags = "@RGSTR001,@LGN001,@LGT001,@PRF001,@addProduct1,@listAllProduct1,@prd004,@del001,@OFR000,@OFR001,@OFR002,@OFR004",
-monochrome = true
+monochrome = true,
+plugin = [
+	"pretty",
+	"html:GherkinReports/EndtoEndWeb_Gherkin/HTML",
+	"json:GherkinReports/EndtoEndWeb_Gherkin/JSON/reports.json",
+]
 )
 
 
